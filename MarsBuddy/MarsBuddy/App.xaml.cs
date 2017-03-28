@@ -2,20 +2,20 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-
+using System.Threading.Tasks;
 using Xamarin.Forms;
 
 namespace MarsBuddy
 {
 	public partial class App : Application
 	{
-		public App ()
-		{
-			InitializeComponent();
+        public App()
+        {
+            InitializeComponent();
 
-			MainPage = new MarsBuddy.MainPage();
-		}
-
+            MainPage = new NavigationPage(new MarsBuddy.MainPage());
+        }
+        
 		protected override void OnStart ()
 		{
 			// Handle when your app starts

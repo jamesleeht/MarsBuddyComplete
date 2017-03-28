@@ -37,6 +37,13 @@
         Clicked="TakePic"
         />
 
+      <Button
+        Text="Member List"
+        VerticalOptions="End"
+        HorizontalOptions="Fill"
+        Clicked="OpenMembers"
+          />
+
   </StackLayout>
 
 </ContentPage>

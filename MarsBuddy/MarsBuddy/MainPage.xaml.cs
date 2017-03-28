@@ -89,5 +89,10 @@ namespace MarsBuddy
             return result;
         }
 
+        //ToDo method for button
+        public async void OpenMembers(object sender, EventArgs args)
+        {
+            await Navigation.PushAsync(new MembersPage());
+        }   
     }
 }
